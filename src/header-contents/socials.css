@@ -1,0 +1,23 @@
+@import '/src/globals.css';
+
+.social-container{
+    background-color: ghostwhite;
+
+}
+
+.icon-list{
+    color: white;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.icons{
+    font-size: 30px;
+    margin: 0 30px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: var(--main-color-blue);
+}
