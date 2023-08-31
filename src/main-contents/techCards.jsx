@@ -1,12 +1,29 @@
-import React from 'react'
-import './techCards.css'
+import React, { useState, useEffect } from 'react';
 
-export default function TechCards(){
-    return(
-        <div className="card">
-            <h1 className="card-title">Tech stack</h1>
-            <p className="card-description">Frontend: HTML, CSS, REACT, Three.js</p>
-            <p>Backend: Java, springboot 3, C++, C, rust</p>
+export default function TechCards() {
+    const [containers, setContainers] = useState([]);
+
+    const fetchData = () =>{
+        fetch("http://localhost:8080/containers")
+            .then(response => {
+                return response.json();
+            }).then(data =>{
+                setContainers(data)
+        })
+    }
+
+    useEffect(() =>{
+        fetchData()
+    },[])
+
+    return (
+        <div>
+            <h1>Container List sss</h1>
+            <ul>
+                {containers.map(container => (
+                    <li key={container.id}>{container.title}</li>
+                ))}
+            </ul>
         </div>
-    )
+    );
 }
