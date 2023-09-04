@@ -1,5 +1,7 @@
+import CareerContent from "../main-contents/career-content.jsx"
+
 export default function Career(){
     return(
-        <h1>Career</h1>
+        <CareerContent/>
     )
 }

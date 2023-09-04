@@ -27,6 +27,7 @@ export default function TechCards(){
                     <ul className="tech-frontend-list">
                         <li className="tech-frontend-listitem">Java</li>
                         <li className="tech-frontend-listitem">C++</li>
+                        &nbsp;
                     </ul>
                     <h1 className="tech-title">Rammeverk</h1>
                     <ul className="tech-frontend-list">
@@ -39,6 +40,8 @@ export default function TechCards(){
                     <ul className="tech-frontend-list">
                         <li className="tech-frontend-listitem">Git</li>
                         <li className="tech-frontend-listitem">Postman</li>
+                        <li className="tech-frontend-listitem">Linx CLI</li>
+                        <li className="tech-frontend-listitem">MySQL</li>
                     </ul>
                 </div>
 
