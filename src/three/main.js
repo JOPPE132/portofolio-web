@@ -81,10 +81,10 @@ window.addEventListener('resize', () =>
 
 const camera = new THREE.PerspectiveCamera( 75, sizes.width / sizes.height, 0.1, 100);
 
-const renderer = new THREE.WebGLRenderer({
-    canvas: canvas,
-    alpha: true
-});
+// const renderer = new THREE.WebGLRenderer({
+//     canvas: canvas,
+//     alpha: true
+// });
 
 // const controls = new OrbitControls(camera, renderer.domElement);
 // controls.enableZoom = false;

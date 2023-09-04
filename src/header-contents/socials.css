@@ -1,9 +1,5 @@
 @import '/src/globals.css';
 
-.social-container{
-    background-color: ghostwhite;
-
-}
 
 .icon-list{
     color: white;
@@ -15,7 +11,7 @@
 }
 
 .icons{
-    font-size: 30px;
+    font-size: 34px;
     margin: 0 30px;
     padding: 0 20px;
     text-decoration: none;

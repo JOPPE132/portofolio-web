@@ -1,29 +1,51 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react'
+import './techCards.css'
 
-export default function TechCards() {
-    const [containers, setContainers] = useState([]);
+export default function TechCards(){
+    return(
+        <div className="tech-stack-wrapper">
 
-    const fetchData = () =>{
-        fetch("http://localhost:8080/containers")
-            .then(response => {
-                return response.json();
-            }).then(data =>{
-                setContainers(data)
-        })
-    }
+            <h1 className="tech-stack-text">Sjekk ut tech-stacken min!</h1>
 
-    useEffect(() =>{
-        fetchData()
-    },[])
+            <div className="tech-card-wrapper">
+                <div className="tech-card">
+                    <h1 className="tech-title">Frontend</h1>
+                    <ul className="tech-frontend-list">
+                        <li className="tech-frontend-listitem">HTML5</li>
+                        <li className="tech-frontend-listitem">CSS3</li>
+                        <li className="tech-frontend-listitem">JavaScript</li>
+                    </ul>
+                    <h1 className="tech-title">Rammeverk</h1>
+                    <ul className="tech-frontend-list">
+                        <li className="tech-frontend-listitem">React.js</li>
+                        <li className="tech-frontend-listitem">Three.js</li>
+                    </ul>
+                </div>
 
-    return (
-        <div>
-            <h1>Container List sss</h1>
-            <ul>
-                {containers.map(container => (
-                    <li key={container.id}>{container.title}</li>
-                ))}
-            </ul>
+                <div className="tech-card">
+                    <h1 className="tech-title">Backend</h1>
+                    <ul className="tech-frontend-list">
+                        <li className="tech-frontend-listitem">Java</li>
+                        <li className="tech-frontend-listitem">C++</li>
+                    </ul>
+                    <h1 className="tech-title">Rammeverk</h1>
+                    <ul className="tech-frontend-list">
+                        <li className="tech-frontend-listitem">Spring boot 3</li>
+                    </ul>
+                </div>
+
+                <div className="tech-card">
+                    <h1 className="tech-title">Andre verktøy</h1>
+                    <ul className="tech-frontend-list">
+                        <li className="tech-frontend-listitem">Git</li>
+                        <li className="tech-frontend-listitem">Postman</li>
+                    </ul>
+                </div>
+
+
+
+
+            </div>
         </div>
-    );
+    )
 }
