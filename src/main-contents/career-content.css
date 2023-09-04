@@ -1,3 +1,5 @@
+@import '../globals.css';
+
 .career-wrapper{
     display: flex;
     justify-content: center;

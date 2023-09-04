@@ -42,6 +42,7 @@ export default function TechCards(){
                         <li className="tech-frontend-listitem">Postman</li>
                         <li className="tech-frontend-listitem">Linx CLI</li>
                         <li className="tech-frontend-listitem">MySQL</li>
+                        <li className="tech-frontend-listitem">Figma</li>
                     </ul>
                 </div>
 
