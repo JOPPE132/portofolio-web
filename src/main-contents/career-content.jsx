@@ -10,9 +10,6 @@ export default function CareerContent(){
             </div>
 
 
-
-
-
             <div className="education">
                 <h1 className="education-title">Education title</h1>
                 <p className="education-description">Education description</p>
