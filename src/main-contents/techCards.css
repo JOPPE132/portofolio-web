@@ -5,13 +5,18 @@
     font-size: 45px;
     font-weight: 600;
     justify-content: center;
-    color: white;
-    margin-bottom: 100px;
+    color: var(--main-color-black);
+    padding: 100px 0;
+}
+
+#tech-stack-wrapper{
+    background-color: white;
 }
 
 .tech-card-wrapper{
     display: flex;
     justify-content: center;
+    height: 1000px;
 }
 
 .tech-card{
@@ -19,7 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 470px;
+    height: 500px;
     width: 400px;
     background-color: #7643E6;
     border-radius: 5px;

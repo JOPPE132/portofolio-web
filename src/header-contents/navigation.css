@@ -10,21 +10,36 @@
     height: 70px;
     display: flex;
     justify-content: center;
-    /*width: auto;*/
+    margin-top: 30px;
 }
 
-.header-ul-left{
+.container-left{
     list-style: none;
     display: flex;
-    padding-top: 10px;
+    padding-top: 4px;
+    margin-right: 400px;
 }
 
-.header-ul-left a, .header-ul-right a{
+.container-right{
+    list-style: none;
+    display: flex;
+    margin-left: 400px;
+}
+
+.container-right a{
     font-size: 28px;
     font-weight: 500;
-    color: var(--main-color-black);
+    color: var(--main-color-white);
     text-decoration: inherit;
-    padding: 0 40px;
+    padding: 0 30px;
+}
+
+.container-left a{
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--main-color-white);
+    text-decoration: inherit;
+    padding: 0 1px;
 }
 
 a:hover {

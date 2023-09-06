@@ -3,7 +3,7 @@ import './techCards.css'
 
 export default function TechCards(){
     return(
-        <div className="tech-stack-wrapper">
+        <div id="tech-stack-wrapper">
 
             <h1 className="tech-stack-text">Sjekk ut tech-stacken min!</h1>
 
@@ -45,10 +45,6 @@ export default function TechCards(){
                         <li className="tech-frontend-listitem">Figma</li>
                     </ul>
                 </div>
-
-
-
-
             </div>
         </div>
     )

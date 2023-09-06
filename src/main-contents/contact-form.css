@@ -1,0 +1,40 @@
+@import '../globals.css';
+
+.title{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-text{
+    color: white;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    margin: 100px auto;
+    background-color: white;
+}
+
+.first-surname-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 169px;
+}
+
+.message-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 169px;
+}

@@ -1,6 +1,7 @@
+import ContactForm from "../main-contents/contact-form.jsx";
+
 export default function Contact(){
     return(
-        <h1>Contact</h1>
-
+        <ContactForm/>
     )
 }

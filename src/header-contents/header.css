@@ -1,5 +1,5 @@
 @import '../globals.css';
 
 .header-wrapper {
-    background-color: white;
+    background-color: var(--main-color-black);
 }
