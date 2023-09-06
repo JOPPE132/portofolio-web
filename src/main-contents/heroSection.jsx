@@ -1,4 +1,5 @@
 import picture from '../assets/meg.jpg'
+import picturenobg from '../assets/meg-nobg.png'
 import './heroSection.css'
 import {Link} from 'react-router-dom'
 
@@ -17,7 +18,7 @@ export default function HeroSection(){
             </div>
 
             <div className="picture-container">
-                <img className="picture" src={picture} alt="Meg"/>
+                <img className="picture" src={picturenobg} alt="Meg"/>
             </div>
 
         </div>
