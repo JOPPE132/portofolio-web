@@ -1,8 +1,6 @@
 import React from 'react';
 import "./navigation.css"
-import {Link} from "react-router-dom";
 import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
-
 
 function Navigation() {
     return(
@@ -14,7 +12,7 @@ function Navigation() {
                     <li><a href="https://www.facebook.com/stavelie" className="icons"><FaFacebook/></a></li>
                 </ul>
                 <ul className="container-right">
-                    <li><a href="#tech-stack-wrapper">Hjem</a></li>
+                    <li className="goToTop"><a href="#">Hjem</a></li>
                     <li><a href="#tech-stack-wrapper">Tech stack</a></li>
                     <li><a href="#tech-stack-wrapper">Karriere</a></li>
                     <li><a href="#tech-stack-wrapper">Kontakt</a></li>

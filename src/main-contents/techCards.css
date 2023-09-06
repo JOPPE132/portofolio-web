@@ -6,17 +6,21 @@
     font-weight: 600;
     justify-content: center;
     color: var(--main-color-black);
-    padding: 100px 0;
+    padding-bottom: 50px;
 }
 
 #tech-stack-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
+    height: inherit;
+    padding: 80px 0;
 }
 
 .tech-card-wrapper{
     display: flex;
     justify-content: center;
-    height: 1000px;
 }
 
 .tech-card{

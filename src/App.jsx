@@ -1,24 +1,18 @@
 import React from 'react'
 import Header from "./header-contents/header.jsx";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Home from "./pages/home.jsx";
-import Career from "./pages/career.jsx";
-import Contact from "./pages/contact.jsx";
-import NoPage from "./pages/nopage.jsx";
+import HeroSection from "./main-contents/heroSection.jsx";
+import TechCards from "./main-contents/techCards.jsx";
+import CareerContent from "./main-contents/career-content.jsx";
+import ContactForm from "./main-contents/contact-form.jsx";
 
-function App() {
+export default function App() {
     return(
         <div>
-            <BrowserRouter>
-                <Header/>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/career" element={<Career />} />
-                    <Route path="/contact" element={<Contact />}/>
-                    <Route path="*" element={<NoPage/>}/>
-                </Routes>
-            </BrowserRouter>
+            <Header/>
+            <HeroSection/>
+            <TechCards/>
+            <CareerContent/>
+            <ContactForm/>
         </div>
     )
 }
-export default App;

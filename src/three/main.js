@@ -90,7 +90,7 @@ const camera = new THREE.PerspectiveCamera( 75, sizes.width / sizes.height, 0.1,
 // controls.enableZoom = false;
 
 const loader = new GLTFLoader();
-renderer.setSize(window.innerWidth, window.innerHeight);
+//renderer.setSize(window.innerWidth, window.innerHeight);
 
 camera.position.set(0, 0, 5);
 
@@ -100,7 +100,7 @@ function animate(){
     // sphere.rotation.x += 0.005;
     sphere.rotation.y += 0.005;
 
-    renderer.render(scene, camera);
+    //renderer.render(scene, camera);
 }
 animate();
 

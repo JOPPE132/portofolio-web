@@ -13,7 +13,7 @@ export default function HeroSection(){
                     <br/>
                     Jeg er en ferdigutdannet dataingeniør på utkikk etter jobb.
                 </p>
-                <Link to="/contact"><button className="hero-button">Kontakt meg</button></Link>
+                <button className="hero-button">Kontakt meg</button>
             </div>
 
             <div className="picture-container">

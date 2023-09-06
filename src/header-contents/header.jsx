@@ -1,4 +1,3 @@
-import Socials from "./socials.jsx";
 import Navigation from "./navigation.jsx";
 import "./header.css";
 
