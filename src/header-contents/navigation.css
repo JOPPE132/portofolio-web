@@ -16,13 +16,12 @@
     list-style: none;
     display: flex;
     padding-top: 4px;
-    margin-right: 400px;
+    width: auto;
 }
 
 .container-right{
     list-style: none;
     display: flex;
-    margin-left: 400px;
 }
 
 .container-right a{
