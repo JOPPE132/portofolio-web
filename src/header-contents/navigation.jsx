@@ -1,6 +1,7 @@
 import React from 'react';
 import "./navigation.css"
 import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
+import "../mainjs.js"
 
 function Navigation() {
     return(
@@ -13,6 +14,7 @@ function Navigation() {
                 </ul>
                 <ul className="container-right">
                     <li className="goToTop"><a href="#">Hjem</a></li>
+                    <li><a href="#about-wrapper">Om meg</a></li>
                     <li><a href="#tech-stack-wrapper">Tech stack</a></li>
                     <li><a href="#tech-stack-wrapper">Karriere</a></li>
                     <li><a href="#tech-stack-wrapper">Kontakt</a></li>

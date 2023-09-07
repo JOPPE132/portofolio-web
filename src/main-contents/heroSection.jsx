@@ -1,12 +1,9 @@
-import picture from '../assets/meg.jpg'
 import picturenobg from '../assets/meg-nobg.png'
 import './heroSection.css'
-import {Link} from 'react-router-dom'
 
 export default function HeroSection(){
     return(
         <div className="hero-container">
-
             <div className="hero-text">
                 <p className="hero-description">
                     Hei!
@@ -20,7 +17,6 @@ export default function HeroSection(){
             <div className="picture-container">
                 <img className="picture" src={picturenobg} alt="Meg"/>
             </div>
-
         </div>
     )
 }
