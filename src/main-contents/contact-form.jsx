@@ -10,7 +10,7 @@ const TextFieldFirstName = () => {
         <TextField id="firstname" label="Fornavn" type="text" variant="outlined"
                    required="true"
                    sx={{
-                       paddingRight: '8px'
+                       marginRight: '8px'
                    }}
 
         InputProps={{
@@ -27,7 +27,7 @@ const TextFieldSurName  = () => {
         <TextField id="surname" label="Etternavn" type="text" variant="outlined"
                    required="true"
                    sx={{
-                       paddingLeft: '8px'
+                       marginLeft: '8px'
                    }}
         InputProps={{
             style: {
@@ -72,15 +72,11 @@ export default function ContactForm(){
     return(
 
         <div id="contact-wrapper">
-
             <div className="contact-container">
                 <h1 className="contact-header">Kontakt meg via formen</h1>
                 <p className="contact-paragraph">Send inn en form så kommer jeg
                 tilbake til deg så fort jeg har mulighet.</p>
             </div>
-
-
-
             <div className="form-container">
                 <div className="first-surname-container">
                     <TextFieldFirstName/>
@@ -99,16 +95,15 @@ export default function ContactForm(){
                     }}>Send</Button>
                 </div>
             </div>
-
             <div className="contact-container-hidden">
-                <h1 className="contact-header">eller nå meg på andre kanaler...</h1>
-                <ul className="socials-container">
-                    <li><a href="https://github.com/JOPPE132" className="icons"><FaGithub/>Github</a></li>
-                    <li><a href="https://www.linkedin.com/in/mikkel-stavelie/" className="icons"><FaLinkedin/>Linkedin</a></li>
-                    <li><a href="https://www.facebook.com/stavelie" className="icons"><FaFacebook/>Facebook</a></li>
-                </ul>
+                <h1 className="contact-header">eller nå meg via andre kanaler &nbsp;... <br/><br/></h1>
+                <div className="socials-container">
+                    <p className="icons">Tlf: 48056693</p>
+                    <p className="icons">Epost: staveliem@gmail.com</p>
+                    <a href="https://www.linkedin.com/in/mikkel-stavelie/" className="icons"><FaLinkedin/>&nbsp;&nbsp;Linkedin</a>
+                    <a href="https://www.facebook.com/stavelie" className="icons"><FaFacebook/>&nbsp;&nbsp;Facebook</a>
+                </div>
             </div>
-
         </div>
     )
 }
