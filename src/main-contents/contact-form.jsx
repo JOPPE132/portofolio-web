@@ -50,6 +50,13 @@ export default function ContactForm(){
     return(
 
         <div className="contact-wrapper">
+
+            <div className="contact-container">
+                <h1 className="contact-header">Kontakt meg da vel!</h1>
+                <p className="contact-paragraph">Send inn en form så kommer jeg
+                tilbake til deg så fort jeg har mulighet!</p>
+            </div>
+
             <div className="form-container">
                 <div className="first-surname-container">
                     <TextFieldFirstName/>
@@ -62,6 +69,13 @@ export default function ContactForm(){
                     <InputMessage/>
                 </div>
             </div>
+
+            <div className="contact-container-hidden">
+                <h1 className="contact-header">Kontakt meg da vel!</h1>
+                <p className="contact-paragraph">Send inn en form så kommer jeg
+                    tilbake til deg så fort jeg har mulighet!</p>
+            </div>
+
         </div>
     )
 }

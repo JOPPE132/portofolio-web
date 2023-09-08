@@ -1,44 +1,67 @@
-@import '../globals.css';
-
-.career-wrapper{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    color: white;
+#timeline {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 90px 0;
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+    color: #ffffff;
 }
 
-.experience{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--main-color-purple);
-    height: 1000px;
-    width: 600px;
-    margin-right: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 62px -25px rgba(0,0,0,0.74);
-    -webkit-box-shadow: 0px 0px 62px -25px rgba(0,0,0,0.74);
-    -moz-box-shadow: 0px 0px 62px -25px rgba(0,0,0,0.74);
+.timeline-component {
+    margin: 0 20px 20px 20px;
 }
 
-.experience-title{
-    margin-top: 20px;
+.timeline-component-bg {
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 30px;
+
 }
 
-.education{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--main-color-purple);
-    height: 1000px;
-    width: 600px;
-    margin-left: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 62px -25px rgba(0,0,0,0.74);
-    -webkit-box-shadow: 0px 0px 62px -25px rgba(0,0,0,0.74);
-    -moz-box-shadow: 0px 0px 62px -25px rgba(0,0,0,0.74);
+/* LEAVE TILL LAST */
+.timeline-component-btm {
+    margin-bottom: 0;
 }
 
-.education-title{
-    margin-top: 20px;
+.timeline-mid {
+    position: relative;
+    background: #ffffff;
+}
+
+.timeline-point {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+/* LEAVE TILL LAST */
+.timeline-point-btm {
+    top: initial;
+    bottom: 0;
+}
+
+.timeline-date-right {
+    text-align: right;
+    font-size: 20px;
+}
+
+.timeline-date{
+    font-size: 20px;
+}
+
+.timeline-title {
+    margin: 0;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.timeline-paragraph {
+    line-height: 1.5;
 }

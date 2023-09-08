@@ -16,7 +16,7 @@ function Navigation() {
                     <li className="goToTop"><a href="#">Hjem</a></li>
                     <li><a href="#about-wrapper">Om meg</a></li>
                     <li><a href="#tech-stack-wrapper">Tech stack</a></li>
-                    <li><a href="#tech-stack-wrapper">Karriere</a></li>
+                    <li><a href="#timeline">Karriere</a></li>
                     <li><a href="#tech-stack-wrapper">Kontakt</a></li>
                 </ul>
             </nav>
