@@ -1,7 +1,6 @@
 import React from 'react';
 import "./navigation.css"
 import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
-import "../mainjs.js"
 
 export const Socials = () => {
     return(

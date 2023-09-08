@@ -2,12 +2,12 @@ import React from 'react'
 import './contact-form.css'
 import TextField from '@mui/material/TextField'
 import {Button} from "@mui/material";
-import {Socials} from "../header-contents/navigation.jsx";
+import {SendEmail} from "../emailService.js";
 import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
 
 const TextFieldFirstName = () => {
     return(
-        <TextField id="outlined-basic" label="Fornavn" variant="outlined"
+        <TextField id="firstname" label="Fornavn" variant="outlined"
                    required="true"
                    sx={{
                        paddingRight: '8px'
@@ -24,7 +24,7 @@ const TextFieldFirstName = () => {
 
 const TextFieldSurName  = () => {
     return(
-        <TextField id="outlined-basic" label="Etternavn" variant="outlined"
+        <TextField id="surname" label="Etternavn" variant="outlined"
                    required="true"
                    sx={{
                        paddingLeft: '8px'
@@ -39,7 +39,7 @@ const TextFieldSurName  = () => {
 
 const TextFieldEmail = () => {
     return(
-        <TextField id="outlined-basic" label="E-post" variant="outlined"
+        <TextField id="email" label="E-post" variant="outlined"
                    required="true"
                    sx={{
                        width: '560px'
@@ -54,7 +54,7 @@ const TextFieldEmail = () => {
 
 const InputMessage = () => {
     return(
-        <TextField id="outlined-basic" label="Melding" variant="outlined"
+        <TextField id="message" label="Melding" variant="outlined"
                    required="true"
                    multiline="true" minRows="8" sx={{
             width: '560px'
@@ -93,7 +93,7 @@ export default function ContactForm(){
                     <InputMessage/>
                 </div>
                 <div className="button-container">
-                    <Button classname="button-submit" variant="outlined" sx={{
+                    <Button onClick={SendEmail} classname="button-submit" variant="outlined" sx={{
                         width: '560px'
                     }}>Send</Button>
                 </div>
