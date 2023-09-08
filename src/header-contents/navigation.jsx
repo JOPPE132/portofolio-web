@@ -18,11 +18,11 @@ function Navigation() {
             <nav className="header-navigation">
                 <Socials/>
                 <ul className="container-right">
-                    <li className="goToTop"><a href="#">Hjem</a></li>
+                    <li><a href="#">Hjem</a></li>
                     <li><a href="#about-wrapper">Om meg</a></li>
                     <li><a href="#tech-stack-wrapper">Tech stack</a></li>
                     <li><a href="#timeline">Karriere</a></li>
-                    <li><a href="#tech-stack-wrapper">Kontakt</a></li>
+                    <li><a href="#contact-wrapper">Kontakt</a></li>
                 </ul>
             </nav>
         </header>

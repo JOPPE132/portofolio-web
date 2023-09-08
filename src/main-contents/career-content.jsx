@@ -38,7 +38,7 @@ export default function CareerContent(){
             <div className="timeline-component timeline-component-bg">
                 <h2 className="timeline-title">Forkurs</h2>
                 <p className="timeline-paragraph">
-                    Høsten 2020 valgte jeg studier fremfor videre arbeid i GK Kulde for ytterlige utvikling.
+                    Sommeren 2020 valgte jeg studier fremfor videre arbeid i GK Kulde for ytterlige utvikling.
                     Da begynte jeg som forkursstudent hos NTNU i Ålesund.
                 </p>
             </div>

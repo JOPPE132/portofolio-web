@@ -1,6 +1,6 @@
 @import '../globals.css';
 
-.contact-wrapper{
+#contact-wrapper{
     background-color: var(--main-color-white);
     display: flex;
     justify-content: center;

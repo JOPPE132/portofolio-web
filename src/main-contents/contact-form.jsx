@@ -7,7 +7,7 @@ import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
 
 const TextFieldFirstName = () => {
     return(
-        <TextField id="firstname" label="Fornavn" variant="outlined"
+        <TextField id="firstname" label="Fornavn" type="text" variant="outlined"
                    required="true"
                    sx={{
                        paddingRight: '8px'
@@ -24,7 +24,7 @@ const TextFieldFirstName = () => {
 
 const TextFieldSurName  = () => {
     return(
-        <TextField id="surname" label="Etternavn" variant="outlined"
+        <TextField id="surname" label="Etternavn" type="text" variant="outlined"
                    required="true"
                    sx={{
                        paddingLeft: '8px'
@@ -54,7 +54,7 @@ const TextFieldEmail = () => {
 
 const InputMessage = () => {
     return(
-        <TextField id="message" label="Melding" variant="outlined"
+        <TextField id="message" label="Melding" type="text" variant="outlined"
                    required="true"
                    multiline="true" minRows="8" sx={{
             width: '560px'
@@ -71,7 +71,7 @@ const InputMessage = () => {
 export default function ContactForm(){
     return(
 
-        <div className="contact-wrapper">
+        <div id="contact-wrapper">
 
             <div className="contact-container">
                 <h1 className="contact-header">Kontakt meg via formen</h1>
@@ -93,8 +93,9 @@ export default function ContactForm(){
                     <InputMessage/>
                 </div>
                 <div className="button-container">
-                    <Button onClick={SendEmail} classname="button-submit" variant="outlined" sx={{
-                        width: '560px'
+                    <Button onClick={SendEmail} classname="button-submit" variant="contained" sx={{
+                        width: '560px',
+                        height: '40px'
                     }}>Send</Button>
                 </div>
             </div>
