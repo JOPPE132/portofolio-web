@@ -18,7 +18,7 @@
 }
 
 .contact-container-hidden{
-    color: white;
+    color: var(--main-color-black);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,32 +27,23 @@
     margin-left: 100px;
 }
 
-.form-container{
+.form-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 600px;
-    background-color: var(--main-color-purple);
+    width: 800px;
+    border-radius: 10px; /* Adjust the value to your desired border radius */
+    border: 2px solid var(--main-color-black);
+    min-width: 600px;
 }
-
 .contact-header{
+    font-size: 32px;
 }
 
 .contact-paragraph{
-}
-
-
-
-
-.title{
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.title-text{
-    color: white;
+    font-size: 24px;
 }
 
 .first-surname-container{
@@ -64,13 +55,29 @@
 .email-container {
     margin-top: 20px;
     display: flex;
-    justify-content: flex-start;
-    margin-left: 169px;
+    justify-content: center;
 }
 
 .message-container{
     margin-top: 20px;
     display: flex;
-    justify-content: flex-start;
-    margin-left: 169px;
+    justify-content: center;
+}
+
+.button-container{
+    margin-top: 20px;
+}
+
+.socials-container{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    padding-top: 100px;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--main-color-black);
+    text-decoration: inherit;
 }

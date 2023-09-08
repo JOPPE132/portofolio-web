@@ -26,12 +26,10 @@
 }
 
 .timeline-mid {
-    position: relative;
     background: #ffffff;
 }
 
 .timeline-point {
-    position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -39,6 +37,7 @@
     height: 15px;
     background: #ffffff;
     border-radius: 50%;
+    z-index: 0;
 }
 
 /* LEAVE TILL LAST */
@@ -58,10 +57,11 @@
 
 .timeline-title {
     margin: 0;
-    font-size: 38px;
+    font-size: 32px;
     font-weight: bold;
 }
 
 .timeline-paragraph {
     line-height: 1.5;
+    font-size: 24px;
 }

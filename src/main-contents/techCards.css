@@ -2,7 +2,7 @@
 
 .tech-stack-text{
     display: flex;
-    font-size: 44px;
+    font-size: 32px;
     font-weight: 600;
     justify-content: center;
     color: var(--main-color-white);
@@ -40,7 +40,7 @@
 
 .tech-title{
     margin-top: 50px;
-    font-size: 38px;
+    font-size: 32px;
 }
 
 .tech-framework{
@@ -51,9 +51,5 @@
 .tech-list{
     margin-top: 20px;
     list-style: none;
-    font-size: 30px;
-}
-
-.tech-listitem{
-
+    font-size: 24px;
 }

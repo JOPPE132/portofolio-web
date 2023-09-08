@@ -1,47 +1,69 @@
 import React from 'react'
 import './contact-form.css'
 import TextField from '@mui/material/TextField'
+import {Button} from "@mui/material";
+import {Socials} from "../header-contents/navigation.jsx";
+import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
 
-function TextFieldFirstName(){
+const TextFieldFirstName = () => {
     return(
         <TextField id="outlined-basic" label="Fornavn" variant="outlined"
                    required="true"
-        sx={{
-            paddingRight: '8px'
+                   sx={{
+                       paddingRight: '8px'
+                   }}
+
+        InputProps={{
+            style: {
+                fontSize: '20px'
+            }
         }}/>
     )
 }
 
-function TextFieldSurName(){
+
+const TextFieldSurName  = () => {
     return(
         <TextField id="outlined-basic" label="Etternavn" variant="outlined"
                    required="true"
-        sx={{
-            paddingLeft: '8px'
+                   sx={{
+                       paddingLeft: '8px'
+                   }}
+        InputProps={{
+            style: {
+                fontSize: '20px'
+            }
         }}/>
     )
-}
-
-const TextFieldSurNamed  = () => {
-
 };
 
-function TextFieldEmail(){
+const TextFieldEmail = () => {
     return(
         <TextField id="outlined-basic" label="E-post" variant="outlined"
                    required="true"
-        sx={{
-            width: '462px'
+                   sx={{
+                       width: '560px'
+                   }}
+        InputProps={{
+            style: {
+                fontSize: '20px'
+            }
         }}/>
     )
-}
+};
 
-function InputMessage(){
+const InputMessage = () => {
     return(
         <TextField id="outlined-basic" label="Melding" variant="outlined"
                    required="true"
-            multiline="true" minRows="10" sx={{
-                width: '462px'
+                   multiline="true" minRows="8" sx={{
+            width: '560px'
+        }}
+
+        InputProps={{
+            style: {
+                fontSize: '20px'
+            }
         }}/>
     )
 }
@@ -52,10 +74,12 @@ export default function ContactForm(){
         <div className="contact-wrapper">
 
             <div className="contact-container">
-                <h1 className="contact-header">Kontakt meg da vel!</h1>
+                <h1 className="contact-header">Kontakt meg via formen</h1>
                 <p className="contact-paragraph">Send inn en form så kommer jeg
-                tilbake til deg så fort jeg har mulighet!</p>
+                tilbake til deg så fort jeg har mulighet.</p>
             </div>
+
+
 
             <div className="form-container">
                 <div className="first-surname-container">
@@ -68,12 +92,20 @@ export default function ContactForm(){
                 <div className="message-container">
                     <InputMessage/>
                 </div>
+                <div className="button-container">
+                    <Button classname="button-submit" variant="outlined" sx={{
+                        width: '560px'
+                    }}>Send</Button>
+                </div>
             </div>
 
             <div className="contact-container-hidden">
-                <h1 className="contact-header">Kontakt meg da vel!</h1>
-                <p className="contact-paragraph">Send inn en form så kommer jeg
-                    tilbake til deg så fort jeg har mulighet!</p>
+                <h1 className="contact-header">eller nå meg på andre kanaler...</h1>
+                <ul className="socials-container">
+                    <li><a href="https://github.com/JOPPE132" className="icons"><FaGithub/>Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/mikkel-stavelie/" className="icons"><FaLinkedin/>Linkedin</a></li>
+                    <li><a href="https://www.facebook.com/stavelie" className="icons"><FaFacebook/>Facebook</a></li>
+                </ul>
             </div>
 
         </div>

@@ -60,7 +60,6 @@ export default function CareerContent(){
             </div>
             <div className="timeline-mid">
                 <div className="timeline-point"></div>
-                <div className="timeline-point timeline-point-btm"></div>
             </div>
             <div className="timeline-component timeline-component-btm timeline-component-bg">
                 <h2 className="timeline-title">DatainGENIør</h2>
@@ -69,6 +68,15 @@ export default function CareerContent(){
                     og er nå i ferd med å avslutte studieperioden min.
                 </p>
             </div>
+
+            <div className="timeline-component">
+            </div>
+
+            <div className="timeline-mid">
+                <div className="timeline-point"></div>
+            </div>
+
+
         </div>
     )
 }
