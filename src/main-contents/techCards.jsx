@@ -41,7 +41,7 @@ export default function TechCards(){
                         <li className="tech-listitem">Postman</li>
                         <li className="tech-listitem">MySQL</li>
                         <li className="tech-listitem">Figma</li>
-                        <li className="tech-listitem">Linux CLI</li>
+                        <li className="tech-listitem">RESTful API</li>
                     </ul>
                 </div>
             </div>
