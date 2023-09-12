@@ -29,23 +29,42 @@
     font-size: 24px;
     font-weight: 500;
     color: var(--main-color-white);
-    text-decoration: inherit;
-    padding: 0 30px;
+    text-decoration: none;
+    padding: 27px 30px;
+    transition: 0.3s;
 }
 
 .container-left a{
     font-size: 26px;
     font-weight: 500;
     color: var(--main-color-white);
-    text-decoration: inherit;
-    padding: 0 25px;
+    text-decoration: none;
+    padding: 27px 25px;
+    transition: 0.3s;
 }
 
-a:hover {
-    text-decoration: none;
-    transition: 200ms linear 0s;
-    outline: 0 none;
-    color: #7643E6;
+.container-left a:hover{
+    box-shadow: 0 -5px 0 #fff inset,
+    500px 0 0 rgba(255, 255, 255, 0.02) inset;
+}
+
+.container-right a:hover{
+    box-shadow: 0 -5px 0 #fff inset,
+    500px 0 0 rgba(255, 255, 255, 0.02) inset;
+}
+
+
+@media(max-width: 992px){
+        .container-left{
+            display: none;
+        }
+
+}
+
+@media(max-width: 768px){
+        .container-right a{
+            font-size: 20px;
+        }
 }
 
 
