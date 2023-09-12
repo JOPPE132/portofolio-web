@@ -20,7 +20,6 @@ export const SendEmail = () => {
             email,
             message
         }
-p
         const serviceId = "service_w17c60q";
         const templateId = "template_dg6bov3";
 
