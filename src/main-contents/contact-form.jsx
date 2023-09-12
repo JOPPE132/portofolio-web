@@ -72,7 +72,7 @@ export default function ContactForm(){
     return(
 
         <div id="contact-wrapper">
-            <div className="contact-container">
+            <div class="contact-container">
                 <h1 className="contact-header">Takk for at du tar kontakt!</h1>
                 <p className="contact-paragraph">Send inn en form så kommer jeg
                 tilbake til deg så fort jeg har mulighet.</p>

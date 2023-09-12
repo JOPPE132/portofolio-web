@@ -11,11 +11,11 @@ export default function HeroSection(){
                     <br/>
                     Jeg er en ferdigutdannet dataingeniør på utkikk etter jobb.
                 </p>
-                <button className="hero-button">Kontakt meg</button>
+                <a href="#contact-wrapper"><button  className="hero-button">Kontakt meg</button></a>
             </div>
 
             <div className="picture-container">
-                <img className="picture" src={Picture} alt="Meg"/>
+                <img className="picture" src={Picture}  alt="Meg"/>
             </div>
         </div>
     )
