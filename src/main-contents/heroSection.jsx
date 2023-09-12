@@ -1,4 +1,4 @@
-import picturenobg from '../assets/meg-nobg.png'
+import Picture from '../assets/me2-removebg.png';
 import './heroSection.css'
 
 export default function HeroSection(){
@@ -15,7 +15,7 @@ export default function HeroSection(){
             </div>
 
             <div className="picture-container">
-                <img className="picture" src={picturenobg} alt="Meg"/>
+                <img className="picture" src={Picture} alt="Meg"/>
             </div>
         </div>
     )
