@@ -54,3 +54,74 @@
     width: 550px;
     height: 800px;
 }
+
+@media(max-width: 992px){
+    .picture{
+        width: 400px;
+        height: 600px;
+    }
+
+    .hero-text{
+        max-width: 350px;
+        max-height: 450px;
+    }
+
+    .hero-description{
+        font-size: 35px;
+    }
+
+    .hero-button{
+        padding: 18px 65px;
+        margin-right: 80px;
+    }
+}
+
+@media(max-width: 768px){
+    .picture{
+        width: 330px;
+        height: 500px;
+    }
+
+    .hero-text{
+        max-height: 350px;
+    }
+
+    .hero-description{
+        font-size: 26px;
+        max-width: 300px;
+    }
+
+    .hero-button{
+        padding: 18px 38px;
+        margin-right: 80px;
+    }
+
+    .br2{
+        display: none;
+    }
+}
+
+@media(max-width: 576px){
+    .picture{
+        width: 250px;
+        height: 400px;
+    }
+
+    .hero-text{
+        max-height: 250px;
+    }
+
+    .hero-description{
+        font-size: 26px;
+        max-width: 300px;
+    }
+
+    .hero-button{
+        padding: 18px 38px;
+        margin-right: 80px;
+    }
+
+    .br2{
+        display: none;
+    }
+}

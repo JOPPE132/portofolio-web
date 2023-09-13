@@ -1,8 +1,21 @@
-import React from 'react';
 import "./navigation.css"
 import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
 
-export const Socials = () => {
+//const ham = document.querySelector(".hamburger");
+//const nav = document.querySelector(".container-right");
+
+// ham.addEventListener("click", () => {
+//     ham.classList.toggle("active");
+//     nav.classList.toggle("active");
+// });
+//
+// document.querySelectorAll(".container-right").forEach(n =>
+//     n.addEventListener("click", () => {
+//         ham.classList.remove("active");
+//         nav.classList.remove("active");
+//     } ))
+
+const Socials = () => {
     return(
         <ul className="container-left">
             <li><a href="https://github.com/JOPPE132" className="icons"><FaGithub/></a></li>
@@ -11,6 +24,7 @@ export const Socials = () => {
         </ul>
     )
 }
+
 
 function Navigation() {
     return(
@@ -24,6 +38,11 @@ function Navigation() {
                     <li><a href="#timeline">Karriere</a></li>
                     <li><a href="#contact-wrapper">Kontakt</a></li>
                 </ul>
+                <div className="hamburger">
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                    <span className="bar"></span>
+                </div>
             </nav>
         </header>
         )

@@ -8,7 +8,7 @@ export default function HeroSection(){
                 <p className="hero-description">
                     Hei!
                     <br/>
-                    <br/>
+                    <br className="br2"/>
                     Jeg er en ferdigutdannet dataingeniør på utkikk etter jobb.
                 </p>
                 <a href="#contact-wrapper"><button  className="hero-button">Kontakt meg</button></a>
