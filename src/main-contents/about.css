@@ -19,3 +19,34 @@
     font-size: 24px;
     max-width: 895px;
 }
+
+
+@media (max-width: 900px){
+    .about-paragraph{
+        max-width: 600px;
+    }
+
+    .about-title{
+        margin: 0 472px 0 0;
+    }
+}
+
+@media(max-width: 630px){
+    .about-paragraph{
+        max-width: 450px;
+    }
+
+    .about-title{
+        margin: 0 325px 0 0;
+    }
+}
+
+@media(max-width: 500px){
+    .about-paragraph{
+        max-width: 350px;
+    }
+
+    .about-title{
+        margin: 0 220px 0 0;
+    }
+}
