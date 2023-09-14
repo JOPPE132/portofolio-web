@@ -7,13 +7,11 @@ function Navigation() {
         const ham = document.querySelector('.hamburger');
         const nav = document.querySelector('.container-right');
 
-        // Add a click event listener to the hamburger icon
         ham.addEventListener('click', () => {
             ham.classList.toggle('active');
             nav.classList.toggle('active');
         });
 
-        // Add click event listeners to elements with the class "container-right"
         document.querySelectorAll('.container-right').forEach((n) => {
             n.addEventListener('click', () => {
                 ham.classList.remove('active');
@@ -35,28 +33,14 @@ function Navigation() {
             });
         };
 
-
-        // Clean up event listeners when the component unmounts
-    }, []); // The empty dependency array means this effect runs once when the component mounts
+    }, []);
 
     const Socials = () => {
         return (
             <ul className="container-left">
-                <li>
-                    <a href="https://github.com/JOPPE132" className="icons">
-                        <FaGithub />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/mikkel-stavelie/" className="icons">
-                        <FaLinkedin />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/stavelie" className="icons">
-                        <FaFacebook />
-                    </a>
-                </li>
+                <li><a href="https://github.com/JOPPE132" className="icons"><FaGithub /></a></li>
+                <li><a href="https://www.linkedin.com/in/mikkel-stavelie/" className="icons"><FaLinkedin /></a></li>
+                <li><a href="https://www.facebook.com/stavelie" className="icons"><FaFacebook /></a></li>
             </ul>
         );
     };
@@ -81,5 +65,4 @@ function Navigation() {
         </header>
     );
 }
-
 export default Navigation;

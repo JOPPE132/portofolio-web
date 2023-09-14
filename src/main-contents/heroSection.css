@@ -57,7 +57,7 @@
 
 @media(max-width: 992px){
     .picture{
-        width: 400px;
+        width: 380px;
         height: 600px;
     }
 
@@ -78,8 +78,8 @@
 
 @media(max-width: 768px){
     .picture{
-        width: 330px;
-        height: 500px;
+        width: 300px;
+        height: 495px;
     }
 
     .hero-text{
@@ -89,11 +89,16 @@
     .hero-description{
         font-size: 26px;
         max-width: 300px;
+        line-height: 65px;
     }
 
     .hero-button{
         padding: 18px 38px;
         margin-right: 80px;
+    }
+
+    .hero-button{
+        font-size: 20px;
     }
 
     .br2{
@@ -112,8 +117,9 @@
     }
 
     .hero-description{
-        font-size: 26px;
-        max-width: 300px;
+        font-size: 18px;
+        max-width: 220px;
+        line-height: 55px;
     }
 
     .hero-button{
@@ -123,5 +129,20 @@
 
     .br2{
         display: none;
+    }
+}
+
+
+@media(max-width: 557px){
+    .hero-text{
+        margin: 50px 0 100px 20px;
+    }
+
+    .hero-button{
+        padding: 18px 20px;
+    }
+
+    .hero-description{
+        line-height: 55px;
     }
 }
