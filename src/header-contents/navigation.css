@@ -88,13 +88,7 @@
 
 @media(max-width: 679px){
     .container-right a{
-        font-size: 17px;
-    }
-}
-
-@media(max-width: 557px){
-    .container-right a{
-        padding: 27px 15px;
+        font-size: 18px;
     }
 }
 
@@ -102,21 +96,22 @@
     .container-right {
         position: fixed;
         left: -100%;
-        top: 70px;
-        gap: 0;
+        top: 69px;
+        gap: 15px;
         flex-direction: column;
         background-color: var(--main-color-black);
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        padding-bottom: 15px;
     }
+
 
     .container-right.active{
         left: 0;
     }
 
     .container-right a{
-        margin: 16px 0;
         box-shadow: none;
     }
 
