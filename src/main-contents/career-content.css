@@ -45,7 +45,7 @@
     font-size: 20px;
 }
 
-.timeline-date{
+.timeline-date, .timeline-date-right{
     font-size: 20px;
     margin: 0 20px;
 }
@@ -62,12 +62,6 @@
     font-size: 24px;
 }
 
-@media(max-width: 768px){
-    .timeline-title{
-        font-size: 32px;
-    }
-}
-
 @media(max-width: 630px){
     .timeline-title{
         font-size: 28px;
@@ -79,9 +73,6 @@
 }
 
 @media(max-width: 596px){
-    .timeline-component{
-        width: 50px;
-    }
     .timeline-component-bg{
         padding: 10px 20px;
     }
