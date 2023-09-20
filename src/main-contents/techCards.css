@@ -60,4 +60,53 @@
         align-items: center;
         gap: 25px;
     }
+    .tech-card{
+        height: 400px;
+    }
+}
+
+@media(max-width: 768px){
+    .tech-stack-text{
+        font-size: 28px;
+    }
+
+    .tech-title{
+        font-size: 28px;
+    }
+
+    .tech-framework{
+        font-size: 24px;
+    }
+
+    .tech-listitem{
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 630px){
+    .tech-listitem{
+        font-size: 20px;
+    }
+}
+
+@media(320px < width < 480px){
+    .tech-stack-text {
+        font-size: 22px;
+    }
+    .tech-card{
+        width: 300px;
+        height: 340px;
+    }
+
+    .tech-title{
+        font-size: 22px;
+    }
+
+    .tech-framework{
+        font-size: 20px;
+    }
+
+    .tech-listitem{
+        font-size: 18px;
+    }
 }
