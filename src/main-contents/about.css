@@ -45,18 +45,16 @@
         margin-right: 290px;
     }
     .about-paragraph{
-        font-size: 20px;
         max-width: 400px;
     }
 }
 
 @media(320px < width < 480px){
     .about-title{
-        font-size: 22px;
-        margin-right: 240px;
+        margin-right: 210px;
     }
     .about-paragraph{
-        font-size: 12px;
         max-width: 320px;
+        font-size: 20px;
     }
 }
