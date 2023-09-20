@@ -121,7 +121,7 @@
 
 
     .hero-text{
-        max-width: 300px;
+        max-width: 200px;
     }
 
     .hero-description{
@@ -131,7 +131,7 @@
     }
 
     .hero-button{
-        padding: 1rem 3rem;
+        padding: 1rem 1.7rem;
         font-size: 14px;
 
     }
@@ -144,7 +144,7 @@
 @media(320px < width < 480px){
     .hero-description{
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 400;
     }
 
     .picture{
@@ -156,7 +156,7 @@
     }
 
     .hero-button{
-        padding: 1rem 0.9rem;
+        padding: 1rem 0.6rem;
         margin-right: 50px;
     }
 
