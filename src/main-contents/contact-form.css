@@ -8,23 +8,26 @@
     padding: 90px 0;
 }
 
-.contact-container{
+.contact-container-left{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    max-width: 400px;
-    margin-right: 100px;
+    align-items: center;
+    min-width: 300px;
+    max-width: 300px;
+    margin-right: 70px;
+    color: var(--main-color-black);
 }
 
-.contact-container-hidden{
-    color: var(--main-color-black);
+.contact-container-right{
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
-    max-width: 400px;
-    margin-left: 100px;
+    min-width: 300px;
+    max-width: 300px;
+    margin-left: 70px;
+    color: var(--main-color-black);
 }
 
 .form-container {
@@ -33,16 +36,16 @@
     align-items: center;
     justify-content: center;
     height: 600px;
-    width: 800px;
+    padding: 0 40px;
     border-radius: 10px; /* Adjust the value to your desired border radius */
     border: 2px solid var(--main-color-black);
-    min-width: 600px;
 }
 .contact-header{
     font-size: 32px;
 }
 
 .contact-paragraph{
+    margin-top: 30px;
     font-size: 24px;
 }
 
@@ -65,6 +68,8 @@
 }
 
 .button-container{
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -75,10 +80,192 @@
 }
 
 .icons{
-
     padding: 8px 0;
     margin: 8px 0;
     font-size: 28px;
     color: var(--main-color-black);
     text-decoration: inherit;
+}
+
+@media(max-width: 1420px){
+    #firstname{
+        width: 150px;
+    }
+
+    #surname{
+        width: 150px;
+    }
+
+    .email-container{
+        width: 374px;
+    }
+
+    .message-container{
+        width: 374px;
+    }
+
+    .button-container{
+        width: 374px;
+    }
+}
+
+@media(max-width: 1240px){
+    .contact-container-left{
+        margin-right: 30px;
+    }
+
+    .contact-container-right{
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 1150px){
+    .contact-container-left{
+        min-width: 270px;
+        max-width: 270px;
+    }
+    .contact-container-right{
+        min-width: 270px;
+        max-width: 270px;
+    }
+
+
+   .contact-header{
+       font-size: 28px;
+   }
+    .contact-paragraph{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1100px){
+    #contact-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contact-container-left{
+        margin: 0;
+        text-align: center;
+        max-width: 600px;
+        min-width: 600px;
+    }
+
+    .contact-container-right{
+        margin: 0;
+        text-align: center;
+        max-width: 600px;
+        min-width: 600px;
+    }
+
+    .contact-paragraph{
+        margin-top: 10px;
+    }
+
+    #firstname{
+        width: 243px;
+    }
+
+    #surname{
+        width: 243px;
+    }
+
+    .email-container{
+        width: 560px;
+    }
+
+    .message-container{
+        width: 560px;
+    }
+
+    .button-container{
+        width: 560px;
+    }
+}
+
+@media(max-width: 690px){
+    .contact-container-left{
+        min-width: 400px;
+        max-width: 400px;
+    }
+    .contact-container-right{
+        min-width: 400px;
+        max-width: 400px;
+    }
+    #firstname{
+        width: 150px;
+    }
+
+    #surname{
+        width: 150px;
+    }
+
+    .email-container{
+        width: 374px;
+    }
+
+    .message-container{
+        width: 374px;
+    }
+
+    .button-container{
+        width: 374px;
+    }
+}
+
+@media(max-width: 480px){
+    .contact-container-left{
+        min-width: 300px;
+        max-width: 300px;
+    }
+    .contact-container-right{
+        min-width: 300px;
+        max-width: 300px;
+    }
+    #firstname{
+        width: 120px;
+    }
+
+    #surname{
+        width: 120px;
+    }
+
+    .email-container{
+        width: 312px;
+    }
+
+    .message-container{
+        width: 312px;
+    }
+
+    .button-container{
+        width: 312px;
+    }
+}
+
+@media(max-width: 418px){
+    .form-container{
+        padding: 0 20px;
+    }
+    #firstname{
+        width: 90px;
+    }
+
+    #surname{
+        width: 90px;
+    }
+
+    .email-container{
+        width: 255px;
+    }
+
+    .message-container{
+        width: 255px;
+    }
+
+    .button-container{
+        width: 255px;
+    }
 }
