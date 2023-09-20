@@ -10,13 +10,13 @@ export default function CareerContent(){
             <div className="timeline-mid">
                 <div className="timeline-point"></div>
             </div>
-            <div className="timeline-component timeline-component-bg">
+            <div className="timeline-component-bg">
                 <h2 className="timeline-title">Lærling hos GK Norge</h2>
                 <p className="timeline-paragraph">
                     Ble ansatt som lærling hos GK Kulde i Trondheim.
                 </p>
             </div>
-            <div className="timeline-component timeline-component-bg">
+            <div className="timeline-component-bg">
                 <h2 className="timeline-title">Fagbrev som kuldemontør</h2>
                 <p className="timeline-paragraph">
                     Sommeren 2019 besto jeg fagprøven og ble fulltidsansatt som kuldemontør
@@ -35,14 +35,14 @@ export default function CareerContent(){
             <div className="timeline-mid">
                 <div className="timeline-point"></div>
             </div>
-            <div className="timeline-component timeline-component-bg">
+            <div className="timeline-component-bg">
                 <h2 className="timeline-title">Forkurs</h2>
                 <p className="timeline-paragraph">
                     Sommeren 2020 valgte jeg studier fremfor videre arbeid i GK Kulde for ytterlige utvikling.
                     Da begynte jeg som forkursstudent hos NTNU i Ålesund.
                 </p>
             </div>
-            <div className="timeline-component timeline-component-bg">
+            <div className="timeline-component-bg">
                 <h2 className="timeline-title">Rema 1000</h2>
                 <p className="timeline-paragraph">
                     I avslutningen av forkursåret, begynte jeg å jobbe deltid hos Rema 1000 Gåseid, og
@@ -61,7 +61,7 @@ export default function CareerContent(){
             <div className="timeline-mid">
                 <div className="timeline-point"></div>
             </div>
-            <div className="timeline-component timeline-component-btm timeline-component-bg">
+            <div className="timeline-component-btm timeline-component-bg">
                 <h2 className="timeline-title">DatainGENIør</h2>
                 <p className="timeline-paragraph">
                     Ett år senere fikk jeg plass som dataingeniørstudent hos NTNU i Ålesund,
