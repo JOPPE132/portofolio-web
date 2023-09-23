@@ -97,7 +97,7 @@
     .container-right {
         position: fixed;
         left: -100%;
-        top: 69px;
+        top: 67px;
         gap: 15px;
         flex-direction: column;
         background-color: var(--main-color-black);
@@ -106,7 +106,6 @@
         transition: 0.3s;
         padding-bottom: 15px;
     }
-
 
     .container-right.active{
         left: 0;
@@ -133,8 +132,6 @@
     .container-right a:hover{
         box-shadow: none;
     }
-
-
 }
 
 
