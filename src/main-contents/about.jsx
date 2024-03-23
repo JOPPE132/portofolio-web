@@ -7,10 +7,8 @@ export default function About(){
             <div className="about-container">
                 <h1 className="about-title">Om meg</h1>
                 <p className="about-paragraph">Jeg er en 24 år gammel dataingeniørstudent ved NTNU i Ålesund
-                    som snart er ferdig med studiene mine. Min lidenskap ligger innenfor webutvikling, og jeg søker nå etter muligheter
-                    som fullstack/frontend-utvikler. Jeg har kompetanse innen HTML, CSS, JavaScript og React, og er
-                    selvfølgelig motivert til å utvide mine ferdigheter innen andre frontend-teknologier.
-
+                    som snart er ferdig med studiene mine. Min lidenskap ligger innenfor utvikling, og jeg søker nå etter jobbmuligheter
+                    som java-utvikler/fullstack mobilapp-utvikler/backend-utvikler.
                 <br/>
                     <br/>
                     Utover min karriereambisjon har jeg en lidenskap for en aktiv livsstil. Jeg er også en sosial person
