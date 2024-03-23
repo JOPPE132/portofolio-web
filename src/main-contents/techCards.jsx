@@ -10,8 +10,8 @@ export default function TechCards(){
                 <div className="tech-card">
                     <h1 className="tech-title">Frontend</h1>
                     <ul className="tech-list">
-                        <li className="tech-listitem">HTML5</li>
-                        <li className="tech-listitem">CSS3</li>
+                        <li className="tech-listitem">HTML</li>
+                        <li className="tech-listitem">CSS</li>
                         <li className="tech-listitem">JavaScript</li>
                     </ul>
                     <h1 className="tech-framework">Rammeverk</h1>
